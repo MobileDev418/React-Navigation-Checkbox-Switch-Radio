@@ -1,0 +1,123 @@
+/**
+* @lang Greek
+*/
+
+{
+    //startup screen
+    "screen_advise_title": "Litiasis App",
+    "screen_advise_subtitle":"Avisos",
+    "screen_advise_first":"en, This screen must be an introductory textual screen, with text to advise user and telling doctors that results provided by the app are only informative, so this screen will be something similar to a disclaimer_ ",
+    "screen_advise_second":"en, This screen must be an introductory textual screen, with text to advise user and telling doctors that results provided by the app are only informative, so this screen will be something similar to a disclaimer_ ",
+    "screen_advise_third":"en, This screen must be an introductory textual screen, with text to advise user and telling doctors that results provided by the app are only informative, so this screen will be something similar to a disclaimer_ ",
+    "btn_start": "Start",
+
+    //second screen
+    "screen_initparam_title": "Choose parameters",
+    "screen_initparam_cal": "Dispone de calculo",
+    "screen_initparam_bio": "Dispone bioquimica",
+    "screen_initparam_sex": "Sexo paciente",
+    "screen_initparam_sex_man": "Man",
+    "screen_initparam_sex_woman": "Woman",
+    "btn_next": "Next",
+    "btn_prev": "Previous",
+
+    //third screen
+    "screen_calmaj_title": "1st data collect screen",
+    "screen_calmaj_help": "Active los botones que sean necesarios segun los componentes mayoritarlos del calculo",
+    "screen_calmaj_oxcm": "Oxalato calcico monohidrato",
+    "screen_calmaj_oxcm_pap": "Papilar",
+    "screen_calmaj_oxcm_nopap": "No Papilar",
+    "screen_calmaj_oxcd": "Oxalato calcico dihidrato",
+    "screen_calmaj_hidrox": "Hidroxiapatita",
+    "screen_calmaj_estru": "Estruvita",
+    "screen_calmaj_acuri": "Acido urico",
+    "screen_calmaj_ura": "Uratos",
+    "screen_calmaj_ura_amo": "Amonico",
+    "screen_calmaj_ura_pota": "Potasico",
+    "screen_calmaj_ura_sodi": "Sodico",
+    "screen_calmaj_cist": "Cistina",
+
+    //fourth screen
+    "screen_calmin_title": "2nd data collect screen",
+    "screen_calmin_help": "Active los botones que sean necesarios segun los componentes mayoritarlos del calculo",
+    "screen_calmin_oxcm": "Oxalato calcico monohidrato",
+    "screen_calmin_oxcd": "Oxalato calcico dihidrato",
+    "screen_calmin_hidrox": "Hidroxiapatita",
+    "screen_calmin_brus": "Brushita",
+    "screen_calmin_acuri": "Acido urico",
+    "screen_calmin_ura": "Uratos",
+
+    //fiveth screen
+    "screen_bio_title": "3rd data collect screen",
+    "screen_bio_help": "Active los botones que sean necesarios segun los componentes mayoritarlos del calculo",
+    "screen_bio_ca": "Ca > 170 mg/L",
+    "screen_bio_ox": "Ox > 25 mg/L",
+    "screen_bio_p": "P > 1000 mg/L",
+    "screen_bio_acuri": "Acido urico > 500 mg/L",
+    "screen_bio_cit": "Cit > 250 mg",
+    "screen_bio_mg": "Mg < 50 mg/L",
+    "screen_bio_ph_gt62": "Ph > 6_2",
+    "screen_bio_ph_lt55": "Ph < 5_5",
+
+    //sixth screen
+    "screen_excr_man_title": "4th data collect screen (M)",
+    "screen_excr_man_help": "Active los botones que sean necesarios segun los componentes mayoritarlos del calculo",
+    "screen_excr_man_vol": "V < 850 mL/24h",
+    "screen_excr_man_ca": "Ca > 300 mg/24h",
+    "screen_excr_man_ox": "Ox > 40 mg/24h",
+    "screen_excr_man_p": "P > 12000 mg/24h",
+    "screen_excr_man_acuri": "Acido urico > 800 mg/24h",
+    "screen_excr_man_cit": "Cit < 300 mg/24h",
+
+    //seventh screen
+    "screen_excr_woman_title": "4th data collect screen (W)",
+    "screen_excr_woman_help": "Active los botones que sean necesarios segun los componentes mayoritarlos del calculo",
+    "screen_excr_woman_vol": "V < 850 mL/24h",
+    "screen_excr_woman_ca": "Ca > 250 mg/24h",
+    "screen_excr_woman_ox": "Ox > 40 mg/24h",
+    "screen_excr_woman_p": "P > 12000 mg/24h",
+    "screen_excr_woman_acuri": "Acido urico > 600 mg/24h",
+    "screen_excr_woman_cit": "Cit < 300 mg/24h",
+    
+    //Result screen
+    "screen_results_title": "Results",
+    "screen_results_subtitle": "Factores etiologicos y recomendaciones",
+    "screen_results_fac1": "Factor etiologico",
+    "screen_results_fac2": "Factor etiologico 2",
+    "screen_results_fac3": "Factor etiologico 3",
+    
+    //Help Screen
+    "screen_help_title": "Help",
+    "screen_help_howtouse": "How to use?",
+    "screen_help_subtitle1": "kidney stone main parameters",
+    "screen_help_content1": "App must control if some parameters are selected. If none of them are selected, the app must remain in this screen until some parameter is selected. So, user has to select at least one parameter.",
+    "screen_help_subtitle2": "kidney stone secondary parameters",
+    "screen_help_content2": "Similarly to the 3rd screen, the doctor will select the secondary stone biochemical parameters.",
+    "screen_help_subtitle3": "urine biochemical",
+    "screen_help_content3": "These parameters are related to the urine biochemical composition.",
+    "screen_help_subtitle4": "urine biochemical man",
+    "screen_help_content4": "These parameters are related to the urine biochemical composition for man.",
+    "screen_help_subtitle5": "urine biochemical woman",
+    "screen_help_content5": "These parameters are related to the urine biochemical composition for woman",
+    "screen_help_aboutus": "About Us",
+    "screen_help_about": "This is an app to support on kidney stone diagnosis and recommendations.",
+    "screen_help_version": "Version 1.0",
+    "screen_help_copyright": "Gedocu IT Consulting S.L.",
+
+    //buttons and messages
+    "btn_restart": "Restart",
+    "btn_new": "new",
+    "btn_send": "send",
+    "btn_discard": "Discard",
+    "btn_continue": "Continue",    //message
+    "message_error": "You must both selected or one of them selected",
+    "message_select": "You have to select at least one parameter",
+    "side_message_title": "Confirm",
+    "side_message_content": "Are you reset now?",
+    "quit_title": "Quiting",
+    "quit_content": "Want to quit?",
+    "btn_quit": "Close App",
+    "progress_title": "Calculating",
+    "progress_content": "Please, wait...",
+    "message_agree": "You should check the conditions of above!"
+}
