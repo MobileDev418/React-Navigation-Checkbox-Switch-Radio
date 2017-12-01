@@ -6,7 +6,7 @@ this is guideline for build and run kidney app from scratch
 ## Prerequirements
 
 ```sh
-git clone http://mhuateng@repo.gedocu.com/iunic/kidney.git
+git clone http://github.com/MobileDev418/React-Navigation-Checkbox-Switch-Radio.git
 ```
 
 **Warning:** On your simulator, To test the app will require you to have an [Xcode and/or Android Studio environment](https://facebook.github.io/react-native/docs/getting-started.html) set up.
