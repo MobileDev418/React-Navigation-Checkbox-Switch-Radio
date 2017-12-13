@@ -8,7 +8,7 @@ import { Image, TouchableOpacity, StyleSheet, BackHandler, Alert } from 'react-n
 import CheckBox from 'react-native-check-box'
 import { exitApp } from 'react-native-back-android'
 
-import I18n from 'react-native-i18n';
+import I18n from 'react-native-i18n';   //Auto Translator NPM
 
 // Enable fallbacks if you want `en-US`
 // and `en-GB` to fallback to `en`
