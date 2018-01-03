@@ -18,4 +18,5 @@ const AppNavigator = DrawerNavigator(
     contentComponent: props => <SideBar {...props} />
   }
 );
+
 export default AppNavigator;
