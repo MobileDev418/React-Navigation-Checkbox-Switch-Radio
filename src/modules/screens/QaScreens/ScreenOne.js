@@ -76,14 +76,14 @@ class ScreenOne extends Component {
     if ( this.props.par_st === false && this.props.par_uri === false )
     {
       alert(I18n.t('message_error'))
-    } else if ( this.props.par_sex === -1 ) {
-      alert(I18n.t('message_error'))
     } else if ( this.props.par_st === true && this.props.par_uri === false ){
       // alert("selected st.")
       this.props.navigation.navigate("ScreenTwo")
     } else if ( this.props.par_st === false && this.props.par_uri === true ){
       // alert("selected uri")
       this.props.navigation.navigate("ScreenFou")
+    } else if ( this.props.par_sex === -1 ) {
+      alert(I18n.t('message_error'))
     } else {
       this.props.navigation.navigate("ScreenTwo")
     }
