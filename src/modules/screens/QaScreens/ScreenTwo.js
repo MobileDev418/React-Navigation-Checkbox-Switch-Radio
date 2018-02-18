@@ -55,22 +55,6 @@ class ScreenTwo extends Component {
     this.props.setMajHidrox(value)
   }
 
-  EstruOnPress(value){
-    this.props.setMajEstru(value)
-  }
-
-  AcuriOnPress(value){
-    this.props.setMajAcuri(value)
-  }
-
-  UraAmoOnPress(value){
-    this.props.setMajUraAmo(value)
-  }
-
-  UraPotaOnPress(value){
-    this.props.setMajUraPota(value)
-  }
-
   UraSodiOnPress(value){
     this.props.setMajUraSodi(value)
   }
