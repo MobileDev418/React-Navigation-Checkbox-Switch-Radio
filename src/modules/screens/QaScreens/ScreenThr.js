@@ -46,16 +46,16 @@ class ScreenThr extends Component {
     this.props.setMinHidrox(value)
   }
 
+  UraOnPress(value){
+    this.props.setMinUra(value)
+  }
+
   BrusOnPress(value){
     this.props.setMinBrus(value)
   }
 
   AcuriOnPress(value){
     this.props.setMinAcuri(value)
-  }
-
-  UraOnPress(value){
-    this.props.setMinUra(value)
   }
 
 
