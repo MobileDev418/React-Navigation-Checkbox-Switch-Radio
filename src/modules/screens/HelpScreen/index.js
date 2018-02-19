@@ -16,22 +16,6 @@ class HelpScreen extends React.Component {
         super(props)
     }
 
-    Help1Click(){
-        this.props.setHelp1(!this.props.selHelp1)
-    }
-    Help2Click(){
-        this.props.setHelp2(!this.props.selHelp2)
-    }
-    Help3Click(){
-        this.props.setHelp3(!this.props.selHelp3)
-    }
-    Help4Click(){
-        this.props.setHelp4(!this.props.selHelp4)
-    }
-    Help5Click(){
-        this.props.setHelp5(!this.props.selHelp5)
-    }
-
     static navigationOptions = ({ navigation }) => ({
         header: (
           <Header>
@@ -47,6 +31,22 @@ class HelpScreen extends React.Component {
           </Header>
         )
       });
+
+    Help1Click(){
+        this.props.setHelp1(!this.props.selHelp1)
+    }
+    Help2Click(){
+        this.props.setHelp2(!this.props.selHelp2)
+    }
+    Help3Click(){
+        this.props.setHelp3(!this.props.selHelp3)
+    }
+    Help4Click(){
+        this.props.setHelp4(!this.props.selHelp4)
+    }
+    Help5Click(){
+        this.props.setHelp5(!this.props.selHelp5)
+    }
     render() {
     return (
         <Container>
