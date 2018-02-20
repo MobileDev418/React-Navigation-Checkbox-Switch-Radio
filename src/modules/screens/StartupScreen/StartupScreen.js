@@ -167,15 +167,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginTop: 10
     },
-    checkbox: {
-        padding: 10, 
-        justifyContent: 'center'
-    },
-    textview: {
-        fontSize: 20, 
-        padding : 10,
-        marginRight: 40
-    },
     button: {
         width: 120,
         height: 40, 
@@ -190,5 +181,14 @@ const styles = StyleSheet.create({
     start: {
         color: '#fff', 
         fontSize: 18
+    },
+    checkbox: {
+        padding: 10, 
+        justifyContent: 'center'
+    },
+    textview: {
+        fontSize: 20, 
+        padding : 10,
+        marginRight: 40
     }
 });
