@@ -13,8 +13,7 @@ const AppNavigator = DrawerNavigator(
   {
     Startup: { screen: StartupScreen },
     QaScreen: { screen: QaScreen }
-  },
-  {
+  },{
     contentComponent: props => <SideBar {...props} />
   }
 );
