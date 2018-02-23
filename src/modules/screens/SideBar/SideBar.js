@@ -27,7 +27,7 @@ class SideBar extends React.Component {
     this.setState({isModalVisible: !this.state.isModalVisible})
   }
 
-  DiscardOnPress(){
+  DiscardOnPress(){ //
     this.setState({isModalVisible: false})
     this.props.setInitParamValue()
     this.props.setInitMajValue()
@@ -99,19 +99,19 @@ const styles = StyleSheet.create ({
     borderRadius:100,
     alignItems: 'center'
   },
-  modalview : { 
-    marginLeft: 15, 
-    backgroundColor: "#fff", 
-    width: 300, 
-    height: 160, 
-    borderRadius: 5 
-  },
   dlgtitle : {
     height: 30, 
     borderRadius: 5, 
     marginTop: 5, 
     textAlign: 'center', 
     fontSize: 20
+  },
+  modalview : { 
+    marginLeft: 15, 
+    backgroundColor: "#fff", 
+    width: 300, 
+    height: 160, 
+    borderRadius: 5 
   },
   message : {
     height: 30, 
